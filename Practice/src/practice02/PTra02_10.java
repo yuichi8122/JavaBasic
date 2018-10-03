@@ -22,5 +22,12 @@ public class PTra02_10 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
+
+		int sum = (int)( (coffee*2+snack)*1.08);
+
+
+		System.out.println(moneyInHand-sum);
+
+
 	}
 }
