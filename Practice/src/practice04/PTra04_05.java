@@ -57,10 +57,20 @@ public class PTra04_05 {
 			} else {
 				System.out.println("パー！！");
 
-
+			}
+			if (cpuHand==0&&myHand==2) {
+				winFlg=true;
+			} else if(cpuHand==1&&myHand==0) {
+				winFlg=true;
 
 			}
-
+				else if (cpuHand==2&&myHand==1) {
+					winFlg=true;
+				}
+				else {
+					System.out.println("勝つまでゲームは終了しません。");
+				}
 		}
+		System.out.println("ゲームを終了します。");
 	}
 }
