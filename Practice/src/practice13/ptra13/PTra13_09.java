@@ -54,8 +54,11 @@ public class PTra13_09 {
 			es[i].setDepartmentNm(QUATERDATA[0][i]);
 			es[i].setDepartmentCnt(Integer.parseInt(QUATERDATA[1][i]));
 
-		}
 
+		}
+		System.out.println(es1.userNm+es1.mail+es1.password+es1.getDepartmentNm()+es1.getDepartmentCnt());
+		System.out.println(es2.userNm+es2.mail+es2.password+es2.getDepartmentNm()+es2.getDepartmentCnt());
+		System.out.println(es3.userNm+es3.mail+es3.password+es3.getDepartmentNm()+es3.getDepartmentCnt());
 	}
 
 }
