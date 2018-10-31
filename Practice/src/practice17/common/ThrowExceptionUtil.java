@@ -1,5 +1,5 @@
 /*
- * ThrowExceptionUtil.java
+ 	* ThrowExceptionUtil.java
  *   作成	LIKEIT	2017
  *------------------------------------------------------------
  * Copyright(c) Rhizome Inc. All Rights Reserved.
